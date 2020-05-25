@@ -1,1 +1,11 @@
-# CI-Status-Droid
+# Droid arduino
+
+Hardware requirements
+-----
+
+Connection
+-----
+
+
+Arduino Code
+-----
