@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E978FAC247D8F10006EF940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E978FAB247D8F10006EF940 /* AppDelegate.swift */; };
+		6E978FAE247D8F10006EF940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E978FAD247D8F10006EF940 /* ContentView.swift */; };
+		6E978FB0247D8F11006EF940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E978FAF247D8F11006EF940 /* Assets.xcassets */; };
+		6E978FB3247D8F11006EF940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E978FB2247D8F11006EF940 /* Preview Assets.xcassets */; };
+		6E978FB6247D8F11006EF940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E978FB4247D8F11006EF940 /* Main.storyboard */; };
+		6E978FBE247D9039006EF940 /* Pods_DroidStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4014A20F3F617407D2465E4 /* Pods_DroidStatus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A644892DA2B355E38BB6A90 /* Pods-DroidStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidStatus.release.xcconfig"; path = "Target Support Files/Pods-DroidStatus/Pods-DroidStatus.release.xcconfig"; sourceTree = "<group>"; };
+		6E978FA8247D8F10006EF940 /* DroidStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E978FAB247D8F10006EF940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E978FAD247D8F10006EF940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E978FAF247D8F11006EF940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E978FB2247D8F11006EF940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E978FB5247D8F11006EF940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E978FB7247D8F11006EF940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E978FB8247D8F11006EF940 /* DroidStatus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DroidStatus.entitlements; sourceTree = "<group>"; };
+		71E7C8E3B7B2F81F49C4115B /* Pods-DroidStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidStatus.debug.xcconfig"; path = "Target Support Files/Pods-DroidStatus/Pods-DroidStatus.debug.xcconfig"; sourceTree = "<group>"; };
+		F4014A20F3F617407D2465E4 /* Pods_DroidStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E978FA5247D8F0F006EF940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E978FBE247D9039006EF940 /* Pods_DroidStatus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E978F9F247D8F0F006EF940 = {
+			isa = PBXGroup;
+			children = (
+				6E978FAA247D8F10006EF940 /* DroidStatus */,
+				6E978FA9247D8F10006EF940 /* Products */,
+				A59A575E1240F87F89E94530 /* Pods */,
+				9ECA6F9FB086EA1BFF92EED7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E978FA9247D8F10006EF940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E978FA8247D8F10006EF940 /* DroidStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E978FAA247D8F10006EF940 /* DroidStatus */ = {
+			isa = PBXGroup;
+			children = (
+				6E978FAB247D8F10006EF940 /* AppDelegate.swift */,
+				6E978FAD247D8F10006EF940 /* ContentView.swift */,
+				6E978FAF247D8F11006EF940 /* Assets.xcassets */,
+				6E978FB4247D8F11006EF940 /* Main.storyboard */,
+				6E978FB7247D8F11006EF940 /* Info.plist */,
+				6E978FB8247D8F11006EF940 /* DroidStatus.entitlements */,
+				6E978FB1247D8F11006EF940 /* Preview Content */,
+			);
+			path = DroidStatus;
+			sourceTree = "<group>";
+		};
+		6E978FB1247D8F11006EF940 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E978FB2247D8F11006EF940 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ECA6F9FB086EA1BFF92EED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4014A20F3F617407D2465E4 /* Pods_DroidStatus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59A575E1240F87F89E94530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E7C8E3B7B2F81F49C4115B /* Pods-DroidStatus.debug.xcconfig */,
+				6A644892DA2B355E38BB6A90 /* Pods-DroidStatus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E978FA7247D8F0F006EF940 /* DroidStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E978FBB247D8F11006EF940 /* Build configuration list for PBXNativeTarget "DroidStatus" */;
+			buildPhases = (
+				2ED9D75CF2B4A59E4D1068C1 /* [CP] Check Pods Manifest.lock */,
+				6E978FA4247D8F0F006EF940 /* Sources */,
+				6E978FA5247D8F0F006EF940 /* Frameworks */,
+				6E978FA6247D8F0F006EF940 /* Resources */,
+				36B93CB75B93FF9D14F26EFC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroidStatus;
+			productName = DroidStatus;
+			productReference = 6E978FA8247D8F10006EF940 /* DroidStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E978FA0247D8F0F006EF940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MSI;
+				TargetAttributes = {
+					6E978FA7247D8F0F006EF940 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 6E978FA3247D8F0F006EF940 /* Build configuration list for PBXProject "DroidStatus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E978F9F247D8F0F006EF940;
+			productRefGroup = 6E978FA9247D8F10006EF940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E978FA7247D8F0F006EF940 /* DroidStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E978FA6247D8F0F006EF940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E978FB6247D8F11006EF940 /* Main.storyboard in Resources */,
+				6E978FB3247D8F11006EF940 /* Preview Assets.xcassets in Resources */,
+				6E978FB0247D8F11006EF940 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED9D75CF2B4A59E4D1068C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DroidStatus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B93CB75B93FF9D14F26EFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DroidStatus/Pods-DroidStatus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DroidStatus/Pods-DroidStatus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DroidStatus/Pods-DroidStatus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E978FA4247D8F0F006EF940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E978FAE247D8F10006EF940 /* ContentView.swift in Sources */,
+				6E978FAC247D8F10006EF940 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E978FB4247D8F11006EF940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E978FB5247D8F11006EF940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E978FB9247D8F11006EF940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E978FBA247D8F11006EF940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6E978FBC247D8F11006EF940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E7C8E3B7B2F81F49C4115B /* Pods-DroidStatus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DroidStatus/DroidStatus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DroidStatus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DroidStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekydevelop.DroidStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E978FBD247D8F11006EF940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A644892DA2B355E38BB6A90 /* Pods-DroidStatus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DroidStatus/DroidStatus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DroidStatus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DroidStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekydevelop.DroidStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E978FA3247D8F0F006EF940 /* Build configuration list for PBXProject "DroidStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E978FB9247D8F11006EF940 /* Debug */,
+				6E978FBA247D8F11006EF940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E978FBB247D8F11006EF940 /* Build configuration list for PBXNativeTarget "DroidStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E978FBC247D8F11006EF940 /* Debug */,
+				6E978FBD247D8F11006EF940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E978FA0247D8F0F006EF940 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ORSSerialPort (2.1)
+
+DEPENDENCIES:
+  - ORSSerialPort
+
+SPEC REPOS:
+  trunk:
+    - ORSSerialPort
+
+SPEC CHECKSUMS:
+  ORSSerialPort: d2d5d131797453430c557ba8dc7dcbcae20ff2e5
+
+PODFILE CHECKSUM: 992cd6e7fb72c5c1668a3109f54ba2184ea41f34
+
+COCOAPODS: 1.8.4
