@@ -1,0 +1,6 @@
+framework module Pods_DroidStatus {
+  umbrella header "Pods-DroidStatus-umbrella.h"
+
+  export *
+  module * { export * }
+}
