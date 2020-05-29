@@ -7,8 +7,20 @@ Control droid servo motors and lights using menu bar application
 Libraries
 -----
 
-In order to communicate with the Arduino nano I've used **ORSSerial** library.
-// todo Main methods used in order to search for available USB ports and connect to them
+In order to communicate with the Arduino nano I've used **ORSSerial** library.      
 
+More details related to ORSerial - [github source](https://github.com/armadsen/ORSSerialPort/wiki/Installing-ORSSerialPort)
 
+Podfile   
+
+```
+platform :macos, '10.15'
+use_frameworks!
+
+target 'DroidStatus' do
+  project 'DroidStatus'
+ 	pod "ORSSerialPort"
+end
+
+```
   
