@@ -66,14 +66,14 @@ class AppDelegate: NSObject, NSApplicationDelegate, ORSSerialPortDelegate {
     @objc func displayBusyStatus() {
         print("Busy sign must be displayed")
         setPortState()
-        let value = Data("0".utf8)
+        let value = Data("1".utf8)
         self.handleUserInput(value)
     }
     
     @objc func displayAvailableStatus() {
         print("Available sign must be displayed")
         setPortState()
-        let value = Data("1".utf8)
+        let value = Data("2".utf8)
         self.handleUserInput(value)
     }
     
