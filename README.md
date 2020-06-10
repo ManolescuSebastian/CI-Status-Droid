@@ -32,6 +32,9 @@ Breadboard connection
 
 ### Raspberry pi     
 
+<p align="center">
+   <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/arduino/images/raspberry_droid_status_schetch_bb.jpg" width="80%"></img>
+</p>
 
 License
 ------
