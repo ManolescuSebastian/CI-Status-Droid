@@ -1,5 +1,6 @@
 # Droid-Status 
 
+Project in progress...
 
 Demo
 -----
@@ -13,6 +14,8 @@ Hardware requirements
 - 2x Servo Motor (SG90)
 - 2x push buttton
 - 2x LED
+- 2x 10k resistor
+- 2x 220k resistor
 - wires
 
 Breadboard connection
