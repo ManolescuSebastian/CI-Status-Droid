@@ -10,7 +10,7 @@ Demo
 
 Hardware requirements
 -----
-- Arduino Nano
+- Arduino Nano OR Wemos D1 OR Raspberry Pi Zero
 - 2x Servo Motor (SG90)
 - 2x push buttton
 - 2x LED
@@ -32,6 +32,8 @@ Breadboard connection
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/arduino/images/wemosd1_droid_status_schetch_bb.jpg" width="80%"></img>
 </p>
+
+
 
 ### Raspberry pi     
 
