@@ -18,6 +18,14 @@ Hardware requirements
 - 2x 220k resistor
 - wires
 
+
+Board content
+-----
+<p align="center">
+   <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/arduino/images/board_img_1.jpg" width="80%"></img>
+</p>
+
+
 Breadboard connection
 -----
 
