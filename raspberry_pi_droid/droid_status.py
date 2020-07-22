@@ -14,6 +14,14 @@ led_L = 3
 GPIO.setup(led_R, GPIO.OUT)
 GPIO.setup(led_L, GPIO.OUT)
 
+#====================
+# Push Button setup
+#====================
+leftPushButton = 17
+rightPushButton = 27
+
+GPIO.setup(leftPushButton, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(rightPushButton, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 #====================
 # Servo motors setup
@@ -32,7 +40,7 @@ rightArm = GPIO.PWM(rightArmPin, 50)
 leftArm.start(0)
 rightArm.start(0)
 
-sleep(1)
+sleep(0.5)
 
 leftArm.ChangeDutyCycle(7)
 rightArm.ChangeDutyCycle(7)
@@ -40,7 +48,7 @@ sleep(0.5)
 
 leftArm.start(0)
 rightArm.start(0)
-sleep(1)
+sleep(0.5)
 
 leftArm.stop(0)
 rightArm.stop(0)
@@ -58,13 +66,23 @@ rightArm.stop(0)
 #                sleep(0.2)
 #                leftArm.start(0)
 
-while True:
-#    leftArmRotate()	
-    GPIO.output(led_R, GPIO.HIGH)
-    GPIO.output(led_L, GPIO.HIGH)
-    sleep(3)
-
-#    leftArmRotateOposite()
+def leftSideAction(channel):
+    #leftArmRotate()	
+    print('Left button pressed')
     GPIO.output(led_R, GPIO.LOW)
+    GPIO.output(led_L, GPIO.HIGH)
+    sleep(1)
+
+def rightSideAction(channel):
+    #leftArmRotateOposite()
+    print('Right button pressed')
+    GPIO.output(led_R, GPIO.HIGH)
     GPIO.output(led_L, GPIO.LOW)
     sleep(1)
+
+GPIO.add_event_detect(leftPushButton,GPIO.RISING,callback=leftSideAction)
+GPIO.add_event_detect(rightPushButton,GPIO.RISING,callback=rightSideAction)
+
+message = input("Press enter to quit\n\n") # Run until someone presses enter
+GPIO.cleanup() # Clean up
+
