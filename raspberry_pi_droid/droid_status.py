@@ -36,7 +36,6 @@ GPIO.setup(rightArmPin, GPIO.OUT)
 leftArm= GPIO.PWM(leftArmPin, 50)
 rightArm = GPIO.PWM(rightArmPin, 50)
 
-
 leftArm.start(0)
 rightArm.start(0)
 
@@ -66,6 +65,27 @@ rightArm.stop(0)
 #                sleep(0.2)
 #                leftArm.start(0)
 
+while True:
+    inputValueLeft = GPIO.input(leftPushButton)
+    inputValueRight = GPIO.input(rightPushButton)
+    if (inputValueLeft == True):
+        #leftArmRotate()	
+        print('Left button pressed')
+        GPIO.output(led_R, GPIO.LOW)
+        GPIO.output(led_L, GPIO.HIGH)
+        print('Left button pressed')
+        sleep(0.3)
+    
+    elif (inputValueRight == True):
+        #leftArmRotateOposite()
+        print('Right button pressed')
+        GPIO.output(led_R, GPIO.HIGH)
+        GPIO.output(led_L, GPIO.LOW)
+        print('Right button pressed')
+        sleep(0.3)
+
+
+
 def leftSideAction(channel):
     #leftArmRotate()	
     print('Left button pressed')
@@ -80,9 +100,9 @@ def rightSideAction(channel):
     GPIO.output(led_L, GPIO.LOW)
     sleep(1)
 
-GPIO.add_event_detect(leftPushButton,GPIO.RISING,callback=leftSideAction)
-GPIO.add_event_detect(rightPushButton,GPIO.RISING,callback=rightSideAction)
+#GPIO.add_event_detect(leftPushButton,GPIO.RISING,callback=leftSideAction)
+#GPIO.add_event_detect(rightPushButton,GPIO.RISING,callback=rightSideAction)
 
-message = input("Press enter to quit\n\n") # Run until someone presses enter
-GPIO.cleanup() # Clean up
+#message = input("Press enter to quit\n\n") # Run until someone presses enter
+#GPIO.cleanup() # Clean up
 
