@@ -26,79 +26,98 @@ GPIO.setup(rightPushButton, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 #====================
 # Servo motors setup
 #====================
+armLFPin = 12
+armRTPin = 13
 
-leftArmPin = 23
-rightArmPin = 12
+GPIO.setup(armLFPin, GPIO.OUT)
+GPIO.setup(armRTPin, GPIO.OUT)
 
-GPIO.setup(leftArmPin, GPIO.OUT)
-GPIO.setup(rightArmPin, GPIO.OUT)
+pwmArmLF= GPIO.PWM(armLFPin, 50)
+pwmArmRT= GPIO.PWM(armRTPin, 50)
 
-leftArm= GPIO.PWM(leftArmPin, 50)
-rightArm = GPIO.PWM(rightArmPin, 50)
-
-leftArm.start(0)
-rightArm.start(0)
+pwmArmLF.start(0)
+pwmArmRT.start(0)
 
 sleep(0.5)
 
-leftArm.ChangeDutyCycle(7)
-rightArm.ChangeDutyCycle(7)
+pwmArmLF.ChangeDutyCycle(7)
+pwmArmRT.ChangeDutyCycle(7)
 sleep(0.5)
 
-leftArm.start(0)
-rightArm.start(0)
+pwmArmLF.start(0)
+pwmArmRT.start(0)
 sleep(0.5)
 
-leftArm.stop(0)
-rightArm.stop(0)
+#leftArm.stop(0)
+#rightArm.stop(0)
 
-#def leftArmRotate():
-#	startVal: Float = 2
-#	for x in range (10):
-#                leftArm.ChangeDutyCycle(startVal + 0.5)
-#                sleep(0.5)
-#                leftArm.start(0)
+def leftArmUp():
+	startVal: Float = 2
+	for x in range (10):
+                pwmArmLF.ChangeDutyCycle(startVal + 0.5)
+                sleep(0.5)
+                pwmArmLF.start(0)
 
-#def leftArmRotateOposite():
-#	for x in range (7, 12):
-#                leftArm.ChangeDutyCycle(7.5)
-#                sleep(0.2)
-#                leftArm.start(0)
+def leftArmDown():
+	for x in range (7, 12):
+                pwmArmLF.ChangeDutyCycle(7.5)
+                sleep(0.2)
+                pwmArmLF.start(0)
+
+def rightArmUp():
+	startVal: Float = 2
+	for x in range (10):
+                pwmArmRT.ChangeDutyCycle(startVal + 0.5)
+                sleep(0.5)
+                pwmArmRT.start(0)
+
+def rightArmDown():
+	for x in range (7, 12):
+                pwmArmRT.ChangeDutyCycle(7.5)
+                sleep(0.2)
+                pwmArmRT.start(0)
+
 
 while True:
     inputValueLeft = GPIO.input(leftPushButton)
     inputValueRight = GPIO.input(rightPushButton)
-    if (inputValueLeft == True):
-        #leftArmRotate()	
+    if (inputValueLeft == True):	
         print('Left button pressed')
         GPIO.output(led_R, GPIO.LOW)
         GPIO.output(led_L, GPIO.HIGH)
-        print('Left button pressed')
-        sleep(0.3)
-    
+        sleep(0.2)
+        pwmArmRT.ChangeDutyCycle(7.5)
+        sleep(0.5)
+        #leftArmUp()
+        #rightArmDown()
+
     elif (inputValueRight == True):
         #leftArmRotateOposite()
         print('Right button pressed')
         GPIO.output(led_R, GPIO.HIGH)
         GPIO.output(led_L, GPIO.LOW)
-        print('Right button pressed')
-        sleep(0.3)
+        sleep(0.2)
+        pwmArmRT.ChangeDutyCycle(3)
+        sleep(0.5)
+        #leftArmDown()
+        #rightArmUp()
 
 
 
-def leftSideAction(channel):
-    #leftArmRotate()	
-    print('Left button pressed')
-    GPIO.output(led_R, GPIO.LOW)
-    GPIO.output(led_L, GPIO.HIGH)
-    sleep(1)
 
-def rightSideAction(channel):
-    #leftArmRotateOposite()
-    print('Right button pressed')
-    GPIO.output(led_R, GPIO.HIGH)
-    GPIO.output(led_L, GPIO.LOW)
-    sleep(1)
+#def leftSideAction(channel):
+#    leftArmRotate()	
+#    print('Left button pressed')
+#    GPIO.output(led_R, GPIO.LOW)
+#    GPIO.output(led_L, GPIO.HIGH)
+#    sleep(1)
+
+#def rightSideAction(channel):
+#   leftArmRotateOposite()
+#    print('Right button pressed')
+#    GPIO.output(led_R, GPIO.HIGH)
+#    GPIO.output(led_L, GPIO.LOW)
+#    sleep(1)
 
 #GPIO.add_event_detect(leftPushButton,GPIO.RISING,callback=leftSideAction)
 #GPIO.add_event_detect(rightPushButton,GPIO.RISING,callback=rightSideAction)
