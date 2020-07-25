@@ -6,8 +6,6 @@ Demo
 -----
 
 
-
-
 Hardware requirements
 -----
 - Arduino Nano OR Wemos D1 OR Raspberry Pi Zero
@@ -26,28 +24,57 @@ Board content
 </p>
 
 
-Breadboard connection
+Pin and board connection
 -----
 
 ### Arduino NANO      
+
+Nano | Components
+------------ | -------------
+D12 | Servo Motor 1
+D11 | Servo Motor 2
+D8 | LED 1
+D7 | LED 2
+D3 | Push Button 1
+D2 | Push Button 2
+
 
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/droid_status_breadboard.png" width="80%"></img>
 </p>
 
-### ESP8266 / Wemos D1 mini
+
+### ESP8266 (Wemos D1 mini)
+
+Nano | Components
+------------ | -------------
+D6 | Servo Motor 1
+D5 | Servo Motor 2
+D8 | LED 1
+D7 | LED 2
+D2 | Push Button 1
+D1 | Push Button 2      
 
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/wemosd1_droid_status_schetch_bb.jpg" width="80%"></img>
 </p>
 
-
-
 ### Raspberry pi     
+
+Nano | Components
+------------ | -------------
+D12 | Push Button 1
+D13 | Push Button 2
+GPIO17 | Push Button 1
+GPIO27 | Push Button 2
+GPIO2 | LED 1
+GPIO3 | LED 2
+
 
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/raspberry_droid_status_schetch_bb.jpg" width="80%"></img>
 </p>
+
 
 License
 ------
@@ -64,4 +91,5 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
 
