@@ -1,10 +1,12 @@
-# Droid-Status 
+<p align="center">
+   <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/anroid_status_banner.jpg" width="70%"></img>
+</p>
 
-Project in progress...
+
 
 Demo
 -----
-
+//todo
 
 Hardware requirements
 -----
