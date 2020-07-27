@@ -1,4 +1,4 @@
-### Raspberry pi     
+# Raspberry pi     
 
 Nano | Components
 ------------ | -------------
