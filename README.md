@@ -41,7 +41,7 @@ D2 | Push Button 2
 
 ### ESP8266 (Wemos D1 mini)
 
-Nano | Components
+Wemos D1 mini | Components
 ------------ | -------------
 D6 | Servo Motor 1
 D5 | Servo Motor 2
@@ -56,7 +56,7 @@ D1 | Push Button 2
 
 ### Raspberry pi     
 
-Nano | Components
+Raspberry pi  | Components
 ------------ | -------------
 D12 | Push Button 1
 D13 | Push Button 2
@@ -71,7 +71,7 @@ GPIO3 | LED 2
 </p>
 
 
-Board content
+Board
 -----
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/board_img_1.jpg" width="80%"></img>
