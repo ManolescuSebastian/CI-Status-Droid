@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/anroid_status_banner.jpg" width="70%"></img>
+   <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/anroid_status_banner.jpg" width="65%"></img>
 </p>
 
 
@@ -76,7 +76,6 @@ Board
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/board_img_1.jpg" width="80%"></img>
 </p>
-
 
 License
 ------
