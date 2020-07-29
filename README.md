@@ -6,7 +6,10 @@
 
 Demo
 -----
-//todo
+<p align="center">
+   <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/simple_droid_status_demo.gif" width="80%"></img>
+</p>
+
 
 Hardware requirements
 -----
