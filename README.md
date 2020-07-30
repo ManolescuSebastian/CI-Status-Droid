@@ -61,8 +61,8 @@ D1 | Push Button 2
 
 Raspberry pi  | Components
 ------------ | -------------
-D12 | Push Button 1
-D13 | Push Button 2
+GPIO23 | Servo Motor 1
+GPIO24 | Servo Motor 2
 GPIO17 | Push Button 1
 GPIO27 | Push Button 2
 GPIO2 | LED 1
