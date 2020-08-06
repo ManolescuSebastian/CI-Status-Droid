@@ -2,13 +2,16 @@
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/anroid_status_banner.jpg" width="65%"></img>
 </p>
 
-
-
 Demo
 -----
 <p align="center">
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/simple_droid_status_demo.gif" width="80%"></img>
 </p>
+
+Thingiverse
+-----
+All the 3D models are available here:
+https://www.thingiverse.com/thing:4561049
 
 
 Hardware requirements
