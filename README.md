@@ -8,6 +8,10 @@ Demo
    <img src="https://github.com/ManolescuSebastian/Droid-Status/blob/master/res/simple_droid_status_demo.gif" width="80%"></img>
 </p>
 
+Youtube Demo
+-----
+https://www.youtube.com/watch?v=08_v_BuvqyA
+
 Thingiverse
 -----
 All the 3D models are available here:
